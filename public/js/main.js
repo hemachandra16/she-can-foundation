@@ -3,7 +3,7 @@
 // ============================================================
 
 // API base URL — empty string for same-origin, or Render URL for Vercel deploy
-const API_BASE = window.location.hostname === 'localhost' ? '' : (window.__API_BASE || '');
+const API_BASE = window.location.hostname === 'localhost' ? '' : 'https://she-can-foundation-api.onrender.com';
 
 document.addEventListener('DOMContentLoaded', () => {
     // ---- Mobile Menu ----

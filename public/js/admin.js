@@ -2,7 +2,7 @@
 // She Can Foundation — Admin Panel Logic
 // ============================================================
 
-const API_BASE = window.location.hostname === 'localhost' ? '' : (window.__API_BASE || '');
+const API_BASE = window.location.hostname === 'localhost' ? '' : 'https://she-can-foundation-api.onrender.com';
 
 document.addEventListener('DOMContentLoaded', () => {
     const loginView = document.getElementById('loginView');
